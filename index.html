@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podfavela - Link</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background: url('https://i.imgur.com/SuiDlCm_d.png?maxwidth=520&shape=thumb&fidelity=high') no-repeat center center fixed;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -1;
+    }
+
+    .container {
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 30px;
+      background-color: #1e1e1e;
+      border: 2px solid #fff;
+      border-radius: 30px 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .socials {
+      margin-top: 40px;
+    }
+
+    .socials img {
+      width: 40px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+
+    section#sobre {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 60px 20px;
+      margin-top: 60px;
+    }
+
+    section#sobre h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    section#sobre p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container, #sobre {
+      animation: fadeInUp 1.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>Bem-vindo ao Podfavela</h1>
+    <p class="subtitle">Acesse nossas redes sociais oficiais</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/podfavela/" target="_blank" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> Instagram
+      </a>
+      <a href="https://www.tiktok.com/@podfavela.ofc" target="_blank" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"> TikTok
+      </a>
+      <a href="https://www.youtube.com/@podcast.podfavela" target="_blank" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"> YouTube
+      </a>
+    </div>
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      No <strong>Podfavela</strong>, acreditamos no poder das histórias não contadas. Nosso objetivo é criar um espaço onde vozes marginalizadas possam compartilhar suas experiências, ideias e sonhos.<br><br>
+      Não somos apenas um canal de podcast. Somos um movimento que oferece conteúdos autênticos e diversificados, desde conversas profundas até momentos de descontração.<br><br>
+      Em nossas redes sociais, você encontrará uma variedade de conteúdos que celebram a autenticidade e a criatividade de pessoas reais. Junte-se a nós, siga nossas páginas e faça parte dessa jornada de transformação e empoderamento.
+    </p>
+  </section>
+</body>
+</html>
